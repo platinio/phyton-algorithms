@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7ec850fc-4fbf-4cd0-bbba-fee9e7ff575e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>fibonacci.py</StartupFile>
+    <StartupFile>selection_sort.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,28 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="change.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="covering_segments.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="different_summands.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dot_product.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="fibonacci.py" />
+    <Compile Include="fractional_knapsack.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="majority_element.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="selection_sort.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
